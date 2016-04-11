@@ -1,7 +1,7 @@
-Project folder 'git-api' can be installed and run using MAMP/WAMP in your local web server directory:
+Project folder 'github-api' can be installed and run using MAMP/WAMP in your local web server directory:
 
-e.g.:       /Applications/MAMP/htdocs/ivankanski/git-api
-web path:   http://localhost/ivankanski/git-api/
+e.g.:       /Applications/MAMP/htdocs/github-api
+web path:   http://localhost/ivankanski/github-api/
 
 
 Requires PHP 5.5+ to support generator iterators.
@@ -10,7 +10,7 @@ PHP compiled with PDO library (default as of PHP 5.4) --with-pdo-mysql=mysqlnd
 
 MySQL Version: 5.5.26
 
-MySQL connection params can be found and modified in 'git-api/db_connect.php'.
+MySQL connection params can be found and modified in 'github-api/db_connect.php'.
 (Would not normally put connect info in the public application directory on a production site but did so here for convenience.)
 
 **********************************************************

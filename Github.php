@@ -18,8 +18,8 @@ class Github {
     const MAX_PER_PAGE  = 100;
     const DEFAULT_PER_PAGE = 30;
 
-    public $username    = 'ivankanski';
-    public $access_tkn  = '212ba84934901013e5e4b6b02536aca34f6d5406';
+    public $username    = '';
+    public $access_tkn  = '';
     public $sort;
     public $min_stars;
     public $per_page;
